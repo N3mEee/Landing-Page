@@ -11,7 +11,7 @@ ul {
 
 /* hero start / items: .nav .content-header */
 .header {
-    padding: 0 400px;
+    padding: 0 15%;
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
@@ -48,9 +48,8 @@ ul {
 .content-header {
     display: flex;
     justify-content: space-between;
-    gap: 75px;
     padding: 90px 0;
-    align-items: center;
+    flex-wrap: wrap;
 }
 
 /* text start / items: .title, p, button */
@@ -59,6 +58,7 @@ ul {
     flex-direction: column;
     color: #E5E7EB;
     font-size: 18px;
+    flex-basis: 490px;
 }
 
 .title {
